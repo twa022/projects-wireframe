@@ -69,6 +69,31 @@ nav a {
 	color: black;
 }
 
+form {
+	position: relative;
+	width: 70%;
+	max-width: 450px;
+	left: 50%;
+	margin: 1.0rem;
+	transform: translateX(-50%);
+}
+
+input[type="text"] {
+	padding: 5px;
+	width: 100%;
+	border: black 2px solid;
+}
+
+#clear-field {
+	position: absolute;
+	right: 5px;
+	border: black solid 1px;
+	border-radius: 100%;
+	font-size: 1.0rem;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 .overlay-layer {
 	position: fixed;
 	left: 0;
