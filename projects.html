@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ted Alff, Programmer</title>
+	<meta name="description" content="Projects page for Ted Alff">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
+	<link href="main.css" rel="stylesheet" type="text/css">
+	<link href="projects.css" rel="stylesheet" type="text/css">
+
+	<!--Fonts-->
+	<link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class='background'></div>
+	<div class="ctr-header">
+		<div class="bgnd-header"></div>
+		<header>
+			<h1>Ted Alff, Programmer</h1>
+			<nav>
+				<!-- Hamburger on smaller screens -->
+				<a href="#" class="menu hamburger"><i class="fas fa-bars"></i></a>
+				<!-- Menu on larger screens -->
+				<ul class="menu text-menu">
+					<li><a class="home-link" href="index.html">Home</a></li>
+					<li><a class="bio-link" href="bio.html">Bio</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="links.html">Links</a></li>
+					<li><a class="contact-link" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div class="overlay-layer no-display"></div>
+	<ul class="menu hamburger-menu overlay-box no-display">
+		<li><a class="home-link" href="index.html">Home</a></li>
+		<li><a class="bio-link" href="bio.html">Bio</a></li>
+		<li><a href="projects.html">Projects</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="links.html">Links</a></li>
+		<li><a class="contact-link" href="contact.html">Contact</a></li>
+	</ul>
+	<div class="contact-overlay overlay-box no-display">
+		<!--<div class="contact-ctr">-->
+			<ul class="contact">
+				<li><a href="mailto:twa022@gmail.com"><i class="far fa-envelope"></i> twa022@gmail.com</a></li>
+				<li><a href="https://github.com/twa022/"><i class="fab fa-github"></i> github.com/twa022</a></li>
+				<li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+			</ul>
+		<!--</div>-->
+	</div>
+	<div class="bio overlay-box no-display">
+		<div class="bio-image"></div>
+		<div class="bio-text"></div>
+	</div>
+	<div class="gallery no-display overlay-box">
+		<div class="gallery-ctr">
+			<div class="gallery-slider">
+				<h2>Here's the container!</h2>
+			</div>
+		</div>
+		<button class="btn-arrow btn-arrow-prev" id="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+		<button class="btn-arrow btn-arrow-next" id="gallery-next"><i class="fas fa-chevron-right"></i></button>	
+	</div>
+	<main>
+		<section class="projects">
+			<h2>My Projects</h2>
+			<form class="projects-search no-display">
+				<fieldset>
+					<legend>Search Projects</legend>
+					<input type="text" id="project-search-field" placeholder="Search projects entries">
+					<button id="clear-field" aria-label="clear-search-field"><i class="fas fa-times"></i></button>
+				</fieldset>
+			</form>
+			<section class="projects-entries">
+				<div class="projects-entry">
+					<h3><a href="#">Project 1 Name</a></h3>
+					<div class="project-summary">
+						<div class="project-image">
+							<img src="https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673-960x960.png" alt="Placeholder">
+							<div class="entry-gallery-text">Click for Gallery</div>
+						</div>
+						Sed gravida sit amet metus sit amet faucibus. Vestibulum neque ligula, ornare at porta quis, semper eget urna. Curabitur dapibus, orci in sollicitudin vehicula, sem odio interdum neque, vel malesuada nisl enim vitae nibh. Nam tellus erat, imperdiet vel accumsan eget, tincidunt id enim. Suspendisse et lorem at erat vehicula fringilla sit amet vitae elit. Cras iaculis justo id euismod luctus. Pellentesque nec lacinia ligula. Nulla nec justo dapibus, fringilla tortor id, dignissim nisi. Pellentesque velit mauris, consectetur in arcu nec, consequat scelerisque tortor. Quisque sit amet dapibus leo, ac fringilla tortor. Aenean convallis nulla leo, at vehicula nisl tincidunt eget. Nunc ullamcorper ipsum nisi, sed porttitor nibh sollicitudin sed.
+					</div>
+				</div>
+				<div class="projects-entry">
+					<h3><a href="#">Project 1 Name</a></h3>
+					<div class="project-summary">
+						<div class="project-image">
+							<img src="https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673-960x960.png" alt="Placeholder">
+							<div class="entry-gallery-text">Click for Gallery</div>
+						</div>
+						Vestibulum lobortis mollis ligula, rhoncus fringilla sem mollis eget. Aliquam quam justo, ultricies in malesuada ut, mollis nec enim. Nunc eleifend laoreet justo, eget tincidunt ligula dignissim sed. Vestibulum ac venenatis dui. Nam ante leo, consectetur in sem in, porta condimentum urna. Sed gravida condimentum odio. Duis eu massa iaculis, ullamcorper mauris at, convallis erat. Quisque erat metus, sollicitudin vitae dapibus sed, ultricies non tellus. Morbi vestibulum diam sed elit scelerisque dapibus. Proin fringilla, felis non suscipit elementum, diam lectus venenatis mauris, a interdum lectus lectus ut sem. Mauris accumsan scelerisque justo at faucibus.
+					</div>
+				</div>
+			</section>
+			<nav class="page-nav">
+				<span>Page: </span>
+				<ul>
+					<li><a style="text-decoration: none">1</a></li>
+					<li><a href='#' style="text-decoration: underline">2</a></li>
+					<li><a href='#' style="text-decoration: underline">3</a></li>
+				</ul>
+			</nav>
+		</section>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="common.js"></script>
+	<script src="projects.js"></script>
+</body>
+</html>

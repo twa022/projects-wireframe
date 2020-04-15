@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ted Alff, Programmer</title>
+	<meta name="description" content="Projects page for Ted Alff">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css">
+	<link href="main.css" rel="stylesheet" type="text/css">
+
+	<!--Fonts-->
+	<link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class='background'></div>
+	<div class="ctr-header">
+		<div class="bgnd-header"></div>
+		<header>
+			<h1>Ted Alff, Programmer</h1>
+			<nav>
+				<!-- Hamburger on smaller screens -->
+				<a href="#" class="menu hamburger"><i class="fas fa-bars"></i></a>
+				<!-- Menu on larger screens -->
+				<ul class="menu text-menu">
+					<li><a class="home-link" href="index.html">Home</a></li>
+					<li><a class="bio-link" href="bio.html">Bio</a></li>
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="links.html">Links</a></li>
+					<li><a class="contact-link" href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div class="overlay-layer"></div>
+	<ul class="menu hamburger-menu overlay-box no-display">
+		<li><a class="home-link" href="index.html">Home</a></li>
+		<li><a class="bio-link" href="bio.html">Bio</a></li>
+		<li><a href="projects.html">Projects</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="links.html">Links</a></li>
+		<li><a class="contact-link" href="contact.html">Contact</a></li>
+	</ul>
+	<div class="contact-overlay overlay-box no-display">
+		<ul class="contact">
+			<li><a href="mailto:twa022@gmail.com"><i class="far fa-envelope"></i> twa022@gmail.com</a></li>
+			<li><a href="https://github.com/twa022/"><i class="fab fa-github"></i> github.com/twa022</a></li>
+			<li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+		</ul>
+	</div>
+	<div class="bio overlay-box">
+		<div class="bio-image">
+			<img src="https://www.nomadfoods.com/wp-content/uploads/2018/08/placeholder-1-e1533569576673-960x960.png" alt="Ted Alff">
+		</div>
+		<div class="bio-text">
+			Overlay horizontal positioning done in Javascript, should be positioned with right edge lined up with the right edge of the page content. <br>Donec a urna laoreet ligula semper dignissim sit amet a justo. Fusce luctus mauris posuere, mattis dolor sed, consectetur ipsum. Nullam bibendum maximus mi id eleifend. Donec faucibus sed ex vitae vulputate. Nam in nisl fermentum tellus ultrices pulvinar ut eget ante. Vestibulum vehicula maximus volutpat. Nulla ultricies posuere ex, sed suscipit massa cursus imperdiet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer blandit dapibus tempus. Hire Me!
+		</div>
+	</div>
+	<div class="banner">
+		<div class="slider-container">
+			<div class="banner-slider">
+				<a href="#" class="banner-item">
+					<div class="banner-item-bgnd"></div>
+					<div class="banner-item-text"><h2>Project 1 Name</h2>5 Word Summary</div>
+				</a
+				><a href="#" class="banner-item">
+					<div class="banner-item-bgnd"></div>
+					<div class="banner-item-text"><h2>Project 2 Name</h2>5 Word Summary</div>
+				</a
+				><a href="#" class="banner-item">
+					<div class="banner-item-bgnd"></div>
+					<div class="banner-item-text"><h2>Project 3 Name</h2>5 Word Summary</div>
+				</a>
+			</div>
+		</div>
+		<button class="btn-pause" id="pause-slideshow"><i class="fas fa-pause"></i></button>
+		<button class="btn-arrow btn-arrow-prev" id="banner-prev"><i class="fas fa-chevron-left"></i></button>
+		<button class="btn-arrow btn-arrow-next" id="banner-next"><i class="fas fa-chevron-right"></i></button>
+	</div>
+	<main>
+		<section class="blog last-child-no-border-bottom" id="blog">
+			<h2>What I'm Up To</h2>
+			<div><a href="#" class="blog-link">
+				<div>
+					<h3>Blog Post 1 Title</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras finibus lectus tortor, at hendrerit sapien congue porta. Donec ac elit leo. Nulla facilisi. Donec molestie orci felis, a maximus justo molestie sed. Aliquam erat volutpat. Aenean dignissim convallis justo eget mollis. Proin ultrices eros in varius commodo.
+				</div>
+			</a></div>
+			<div><a href="#" class="blog-link">
+				<div>
+					<h3>Blog Post 2 Title</h3>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras finibus lectus tortor, at hendrerit sapien congue porta. Donec ac elit leo. Nulla facilisi. Donec molestie orci felis, a maximus justo molestie sed. Aliquam erat volutpat. Aenean dignissim convallis justo eget mollis. Proin ultrices eros in varius commodo.
+				</div>
+			</a></div>
+			<div><a href="#"class="blog-link">
+				<div><h3>All Blog Entries</h3></div>
+			</a></div>
+		</section>
+		<section class="links last-child-no-border-bottom" id="around-web">
+			<h2>Around the Web</h2>
+			<div><a href="#">
+				<div><h3>Cool link 1</h3>Brief description</div>
+			</a></div>
+			<div><a href="#">
+				<div><h3>Cool link 2</h3>Brief description</div>
+			</a></div>
+			<div><a href="#">
+				<div><h3>Cool link 3</h3>Brief description</div>
+			</a></div>
+			<div><a href="#">
+				<div><h3>All Links</h3></div>
+			</a></div>
+		</section>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="common.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
