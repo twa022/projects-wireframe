@@ -276,6 +276,7 @@ main > section h3 {
 
 main section > div {
 	border-bottom: rgba(100, 100, 100, 0.8) solid 2px;
+	padding-bottom: 8px;
 	margin-bottom: 6px;
 }
 
